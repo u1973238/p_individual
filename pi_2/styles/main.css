@@ -1,12 +1,41 @@
 #title{
 	font-size: 26px;
 	line-height: 75px;
+	grid-column: 2;
+  	grid-row: 1;
+}
+
+#startbutton{
+	grid-column: 2;
+  	grid-row: 2;
+}
+
+#optionsbutton{
+	grid-column: 2;
+  	grid-row: 3;
+}
+
+#exitbutton{
+	grid-column: 2;
+  	grid-row: 4;
+}
+
+#img1{
+	grid-column: 2;
+  	grid-row: 2;
+}
+
+#img2{
+	grid-column: 2;
+  	grid-row: 3;
+}
+
+body{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .menu-object{
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
 	width: 300px;
 	height: 75px;
 	font-size: 16px;
