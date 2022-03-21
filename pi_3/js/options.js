@@ -56,10 +56,6 @@ var options = function(){
 	}; 
 }();
 
-console.log(options.getOptionsString());
-console.log(options.getNumOfCards());
-console.log(options.getDificulty());
-console.log(options.options_data);
 
 
 
