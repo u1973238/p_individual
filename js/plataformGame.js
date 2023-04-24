@@ -1,4 +1,5 @@
-class MyGame extends Phaser.Scene {
+class MyGame extends Phaser.Scene
+{
     constructor() {
         super("PhaserGame");
     }
@@ -31,6 +32,6 @@ const config = {
       },
     },
     scene: MyGame,
-  };
+  }
 
   const game = new Phaser.Game(config);
