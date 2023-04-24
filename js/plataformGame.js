@@ -1,5 +1,3 @@
-import Phaser from "phaser";
-
 class MyGame extends Phaser.Scene {
     constructor() {
         super("PhaserGame");
