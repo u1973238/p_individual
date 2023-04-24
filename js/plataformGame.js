@@ -1,5 +1,4 @@
 import Phaser from "phaser";
-import sky from "./assets/sky.png";
 
 class MyGame extends Phaser.Scene {
     constructor() {
@@ -7,7 +6,7 @@ class MyGame extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("back", "sky");
+        this.load.image("back", "./assets/sky.png");
     }
 
     create() {
