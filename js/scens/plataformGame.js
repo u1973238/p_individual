@@ -1,12 +1,10 @@
-import Phaser from "phaser";
-import sky from "../assets/sky.png";
 class MyGame extends Phaser.Scene {
     constructor() {
-
+        super();
     }
 
     preload() {
-        this.load.image("sky", sky);
+        this.load.image("sky", "../assets/sky.png");
     }
 
     create() {
